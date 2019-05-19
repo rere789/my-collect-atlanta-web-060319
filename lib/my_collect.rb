@@ -4,7 +4,7 @@ def my_collect(array)
     while i < array.size  
       block_given?
       new_array << yield(array[i])
-      i += new_array
+      i += 1 
     end 
     new_array 
 end 
